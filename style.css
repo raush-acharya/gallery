@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.two{
+    width: calc(100% - 5px);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.three{
+    width: calc(100% - 25px);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.two img{
+    width: calc(100% / 2);
+    height: auto;
+    object-fit: cover;
+}
+
+.three img{
+    width: calc(100% / 3);
+    height: auto;
+    object-fit: cover;
+}
